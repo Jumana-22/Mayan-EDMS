@@ -15,10 +15,6 @@ body {
     padding-top: 60px;
 }
 
-.new_window {
-    color: red; 
-}
-
 .navbar-brand {
     font-family: "IM Fell English SC", serif;
 }
@@ -654,7 +650,5 @@ a i {
     padding-right: 0px;
 }
 
-a {
-	color: red !important;
-}
+
 

@@ -37,9 +37,13 @@
         }
 	
 	a.new_window {
-	    color: red !important; 
+	    color: #d10000 !important; 
 	    font-size: 14px;
             font-weight: bold; 
+	}
+	
+	body {
+	    color: #000000 !important ;
 	}
 
         .mayan-edms-logo {
@@ -97,7 +101,7 @@
         </p>
 
         <p class="text-center">
-            <i class="fa fa-home"></i><a href="{% common_project_information '__website__' %}"> {% common_project_information '__website__' %}</a>
+            <i class="fa fa-home"></i><a class="new_window" href="{% common_project_information '__website__' %}"> {% common_project_information '__website__' %}</a>
         </p>
 
         <p class="text-center">
@@ -121,7 +125,7 @@
 
         <p class="text-center">
             {% blocktrans with project_title as project_title and icon_social_paypal as icon_social_paypal%}
-                If you use {{ project_title }} please please JKS  <a class="new_window" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=3PXN336XFXQNN">make a donation {{ icon_social_paypal }}</a>
+                If you use {{ project_title }} please  <a class="new_window" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=3PXN336XFXQNN">make a donation {{ icon_social_paypal }}</a>
             {% endblocktrans %}
         </p>
 
